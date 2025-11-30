@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT FORM</title>
+    <link rel="stylesheet"
+    href="css/style.css">
+</head>
+<body class="page-colour">
+       <header>
+        <section>
+            <header id="top" class="header">
+                <nav class="nav-menu">
+                    <a href="index.html" class="home-btn"><span>HOME</span></a>
+                    <a href="about.html" class="home-btn"><span>ABOUT</span></a>
+                    <a href="contact.html" class="home-btn"><span>CONTACT</span></a>
+                    <a href="tools.html" class="home-btn"><span>TOOLS</span></a>
+                </nav>
+            </header>
+        </section>
+    </header>
+    <main>
+    <section>
+        <div class="contact-form">
+        <h1>Contact me</h1>
+        <form>
+            <fieldset>
+                <legend>Your information</legend>
+                <div>
+                    <label id="fullname">Full Name</label>
+                    <input name="fullname" type="text" id="name"minlength="3" maxlength="25" placeholder="i.e:john Doe"  pattern="[a-zA-Z0-9_]{3,16}" title="3-16 characters,letters,numbers and underscores only" required aria-describedby="username" />
+                    <small id="username">choose a unique username(3-16 characters,letters,number and underscores
+                    only)</small>
+            </div>
+            <div>
+                <label id="email">Email adress</label>
+                <input name="email" type="email" id="email" placeholder="ie:johndoe@gmail.com">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Your message</legend>
+                <label id="message">message</label>
+                <textarea name="message" id="message" rows="1o" maxlength="500" required aria-describedby="message"></textarea>
+                <small id="message">Not more than 500 words</small>
+            </fieldset>
+            <button>Submit Message</button>
+        </form>
+        </div>
+    </section>
+</main>
+    
+</body>
+</html>

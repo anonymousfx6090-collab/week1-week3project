@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: blue;
+    padding: 20px;
+}
+
+.home-btn {
+    margin-left: 35px;
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+.page-colour {
+    background-color: rgb(217, 245, 245);
+    margin: 0%;
+
+}
+
+.text-colour {
+    color: rgb(71, 53, 231);
+}
+
+.gradient-text {
+    font-size: 20px;
+    font-weight: bold;
+    background: linear-gradient(to right, rgb(56, 55, 55), rgb(112, 183, 241), rgb(62, 128, 0))
+}
+
+.image-size {
+    width: 500px;
+    height: 600px;
+    display: inline-block;
+}
+
+.isce-card {
+    width: 300px;
+    height: 200px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-top: 60px;
+    background-color: blue;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 20px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.isce-card-image {
+    background-image: url("/images/passport.jpg");
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+}
+
+.back-to-top-btn {
+    text-decoration: none;
+    border: 0px;
+    border-radius: 0%;
+}
+
+#table-spacing {
+    margin-left: 100px;
+}
+
+.about-page-colour {
+    background-color: rgb(117, 109, 109);
+    margin: 0%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(57, 103, 67, 0.5);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progect1-page-margin{
+    margin: 0%;
+}
+.contact-form {background-color: white;
+    width: 500px;
+    height: 700px;
+}
+.tools-link{
+    padding: 10px 16px;
+    background: #0078d4;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 100px;
+}
+.tools-link:hover{
+    background:rgb(165, 154, 212);
+}
+.tools-page.colour{
+    background-color: aqua;
+    margin: 0%;
+}

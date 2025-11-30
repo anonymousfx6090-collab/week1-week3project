@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PALMTECHNLQ REG FORM</title>
+    <link rel="stylesheet"
+    href="css/style.css"
+</head>
+
+<body>
+           <header id="top" class="header">
+                <nav class="nav-menu">
+                    <a href="index.html" class="home-btn"><span>HOME</span></a>
+                    <a href="about.html" class="home-btn"><span>ABOUT</span></a>
+                    <a href="contact.html" class="home-btn"><span>CONTACT</span></a>
+                    <a href="tools.html" class="home-btn"><span>TOOLS</span></a>
+                </nav>
+            </header>
+            <main>
+    <form>
+        <fieldset>
+            <legend>Personal Info</legend>
+            <div>
+                <label id="name">username</label>
+                <input id="name" type="text" name="name" minlength="3" maxlength="16" placeholder="john-doe-123"
+                    pattern="[a-zA-Z0-9_]{3,16}" title="3-16 characters,letters,numbers and underscores only" required aria-describedby="username" />
+                <small id="username">choose a unique username(3-16 characters,letters,number and underscores
+                    only)</small>
+            </div>
+            <div>
+                <label id="email">email address</label>
+                <input id="email" type="email" name="email" maxlength="80" placeholder="sample@gmail.com"
+                    aria-describedby="email" required>
+                <small id=email>we will send a confirmation to this email</small>
+            </div>
+            <div>
+                <label id="password">password</label>
+                <input id="password" type="text" name="password" minlength="8" pattern="[(?=.*\d)(?=.*[a-z])(?=.*[A-Z])""
+            placeholder=" zS2jhismZ" aria-describedby="password" required>
+                <small id="password">At least 8 characters</small>
+            </div>
+            <div>
+                <label id="age">Age</label>
+                <input id="age" type="number" name="age" min="13" max="120" aria-describedby="age">
+                <small id="age">you must be 13 or older</small>
+        </fieldset>
+        <fieldset>
+            <legend>optional flieds</legend>
+            <div>
+                <label id="link">your url(*optional)</label>
+                <input id="link" type="url" name="link" aria-describedby="link">
+                <small id="link">personal url or potfolio *optional</small>
+            </div>
+            <div>
+                <label id="bio">Bio</label>
+                <textarea id="bio" maxlength="500" rows="10" name="bio" aria-describedby="bio"></textarea>
+                <small id="bio">Tell us about yourself(max 500 characters)*optional</small>
+            </div>
+        </fieldset>
+        <input type="submit" value="send" />
+    </form>
+    </main>
+</body>
+
+</html>
